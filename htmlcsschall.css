@@ -89,45 +89,77 @@ body {
 
 .mission_statements {
     width: 100vw;
-    height: 300px;
+    height: 400px;
 }
 
-
-
-/* .pumpkins {
+ .spirit_img {
     width:100%;
-    height:300px;
-    background-image: cover;
-    position:relative;
+    height:400px;
+    /* background-image: cover; */
+    /* position:relative; */
 }
 
-.rocks {
-    width: 50px;
-    height:50px;
+/* .rocks {
+    width: 33%;
+    height: 75px;
     z-index:2;
+    background-color: burlywood;
     position:relative;
 }
 
-.mission_statements_header {
+/* .mission_statements_header {
     z-index: 2;
     position: relative;
-}
-
-.mission_statements_footer {
-    z-index: 2;
 } */
+
+/* .mission_statements_footer {
+    z-index:2;
+    width: 33%;
+    height: 75px;
+    background-color: cadetblue;
+    position: relative;
+}   */
 
 
 /* End of Mission Statment over background image   */
 
-.image_swithover{
+.image_switchover{
+    width: 100vw;
+    height: 400px;
+    background-color: darkcyan;
+    display:flex;
+    justify-content: center;
+}
 
+.threeColumnLeft {
+width: 200px;
+height 325px;
+}
+
+.threecolumnRight {
+    width: 200px;
+    height 325px;
+}
+
+.blue_img {
+    width:200px;
+    height:100px;
+}
+
+.grey_paragraph {
+    width: 200px;
+    height: 100px;
+    border: solid, black;
 }
 
 /* End of image_switchover */
 
 .footer{
-
+    width: 100vw;
+    height: 5vw;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 
